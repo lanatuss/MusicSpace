@@ -153,9 +153,9 @@ return [
 //        '__CSS__'    => dirname($_SERVER['SCRIPT_NAME']) .  '/public/static/css',
         '__JS__'     => dirname($_SERVER['SCRIPT_NAME']) . './static/js',
 //        '__JS__'     => dirname($_SERVER['SCRIPT_NAME']) .  '/public/static/js',
-        '__IMG__'    => dirname($_SERVER['SCRIPT_NAME']) . './static/img',
+        '__IMG__'    => dirname($_SERVER['SCRIPT_NAME']) . './static/img',  //
 //        '__IMG__'    => dirname($_SERVER['SCRIPT_NAME']) .  '/public/static/images',
-    ],//
+    ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
     'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
