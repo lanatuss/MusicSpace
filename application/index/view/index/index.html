@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MPlayer音乐播放器</title>
-	<link rel="stylesheet" href="css/mplayer.css">
+	<link rel="stylesheet" href="__CSS__/mplayer.css">
 	<style>
 		.info {
 			font-family: "Microsoft Yahei";
@@ -21,7 +21,7 @@
 </div>
 <div class="mp">
 	<div class="mp-box">
-		<img src="img/mplayer_error.png" alt="music cover" class="mp-cover">
+		<img src="__IMG__/mplayer_error.png" alt="music cover" class="mp-cover">
 		<div class="mp-info">
 			<p class="mp-name">燕归巢</p>
 			<p class="mp-singer">许嵩</p>
@@ -70,10 +70,10 @@
 	</div>
 </div>
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="js/jquery.js"></script>
-<script src="js/mplayer.js"></script>
-<script src="js/mplayer-list.js"></script>
-<script src="js/mplayer-functions.js"></script>
+<script src="__JS__/jquery.js"></script>
+<script src="__JS__/mplayer.js"></script>
+<script src="__JS__/mplayer-list.js"></script>
+<script src="__JS__/mplayer-functions.js"></script>
 <script src="//cdn.bootcss.com/jquery-nstslider/1.0.13/jquery.nstSlider.min.js"></script>
 <script>
 var modeText = ['顺序播放','单曲循环','随机播放','列表循环'];
@@ -83,7 +83,7 @@ var player = new MPlayer({
 	// 播放列表
 	songList: mplayer_song,
 	// 专辑图片错误时显示的图片
-	defaultImg: 'img/mplayer_error.png',
+	defaultImg: "__IMG__/mplayer_error.png",
 	// 自动播放
 	autoPlay: true,
 	// 播放模式(0->顺序播放,1->单曲循环,2->随机播放,3->列表循环(默认))
