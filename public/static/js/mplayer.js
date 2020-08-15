@@ -191,6 +191,7 @@ var MPlayer = (function () {
 		function formatData () {
 			$this.list = [];
 			var list = $this.settings.songList;
+			console.log(list);
 			for (var i = 0; i < list.length;i++) {
 				$this.list[i] = [];
 				// 寻找列表公用数据
