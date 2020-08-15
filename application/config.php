@@ -146,15 +146,15 @@ return [
     // 视图输出字符串内容替换
     'view_replace_str'       => [
 //        '__PUBLIC__' => dirname($_SERVER['SCRIPT_NAME']),
-        '__PUBLIC__' => '.',
+//        '__PUBLIC__' => '.',
         '__STATIC__' => dirname($_SERVER['SCRIPT_NAME']) . '/static',
-//        '__STATIC__' => dirname($_SERVER['SCRIPT_NAME']) .  '/public/static',
+//        '__STATIC__' => dirname($_SERVER['HTTP_HOST']) .  '/static',
         '__CSS__'    => dirname($_SERVER['SCRIPT_NAME']) . '/static/css',
-//        '__CSS__'    => dirname($_SERVER['SCRIPT_NAME']) .  '/public/static/css',
+//        '__CSS__'    => dirname($_SERVER['HTTP_HOST']) .  '/static/css',
         '__JS__'     => dirname($_SERVER['SCRIPT_NAME']) . '/static/js',
-//        '__JS__'     => dirname($_SERVER['SCRIPT_NAME']) .  '/public/static/js',
+//        '__JS__'     => dirname($_SERVER['HTTP_HOST']) .  '/static/js',
         '__IMG__'    => dirname($_SERVER['SCRIPT_NAME']) . '/static/img',  //
-//        '__IMG__'    => dirname($_SERVER['SCRIPT_NAME']) .  '/public/static/images',
+//        '__IMG__'    => dirname($_SERVER['HTTP_HOST']) .  '/static/img',
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
