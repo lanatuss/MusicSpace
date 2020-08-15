@@ -21,7 +21,7 @@ class Hook extends Controller
 
         if (strlen($signature) > 8 && $this->isFromGithub($requestBody,$signature)) {
             //验证密钥是否正确，如果正确执行命令。
-            $res = shell_exec("cd /appdb/nginx/html/MusicSpace && /usr/local/git/bin/git pull origin master 2>&1");
+            $res = shell_exec("cd /appdb/nginx/html/MusicSpace && /usr/bin/git pull origin master 2>&1");
             $res_log = "\n -------------------------".PHP_EOL;
             $header = Request::instance()->header();
             $res_log .= '['.$payload['commits'][0]['author']['name'] . ']' . '向[' . $payload['repository']['name'] . ']项目的' . $payload['ref'] . '分支'.$header['x-github-event'].'了代码。commit信息是：'.$payload['commits'][0]['message'].'。详细信息如下：' . PHP_EOL;
