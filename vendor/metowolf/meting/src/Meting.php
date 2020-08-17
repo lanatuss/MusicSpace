@@ -80,9 +80,10 @@ class Meting
         }
 
         $this->data = $this->raw;
-        var_dump($this->data);die();
+
         if (isset($api['decode'])) {
-            $this->data = call_user_func_array(array($this, $api['decode']), array($this->data));
+//            $this->data = call_user_func_array(array($this, $api['decode']), array($this->data));
+            $this->data = call_user_func_array(array($this, $api['decode']), is_string($this->data)?array(json_decode($this->data,true)):array($this->data)));
         }
         if (isset($api['format'])) {
             $this->data = $this->clean($this->data, $api['format']);
