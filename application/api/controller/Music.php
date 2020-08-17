@@ -10,21 +10,26 @@ class Music extends Controller
 {
     private $_cookie = 'os=pc; osver=Microsoft-Windows-10-Professional-build-10586-64bit; appver=2.0.3.131777; channel=netease; __remember_me=true; MUSIC_U=d445d6862598bbd57330ac0077d7be0aff3b508249b598fa24a7b3b7fabdbce833a649814e309366';
     private $_meting = null;
-    const SOURCE_BAIDU = 'baidu';
-    const SOURCE_KUGOU = 'kugou';
-    const SOURCE_XIAOMI = 'xiami';
-    const SOURCE_TENCENT = 'tencent';
-    const SOURCE_NETEASE = 'netease';
+    public static $source_baidu = 'baidu';
+    public static $source_kugou = 'kugou';
+    public static $source_xiaomi = 'xiami';
+    public static $source_tencent = 'tencent';
+    public static $source_netease = 'netease';
     public function _initialize()
     {
-        $this->_meting = new Meting(self::SOURCE_NETEASE);
+        $this->_meting = new Meting(self::$source_netease);
         $this->_meting->cookie($this->_cookie);
     }
 
     public function search(){
         $search = Request::instance()->get('search','');
+        $platform = Request::instance()->get('platform','netease');
         if(empty($search)){
             return json(['code'=> -1,'msg'=>'请输入搜索关键字']);
+        }
+        $platform_str = 'source_'.strtolower($platform);
+        if(isset($$platform_str) && $platform!='netease'){
+            $this->_meting = new Meting(self::$$platform_str);
         }
         $search_res = $this->_meting->format(true)->search($search);
         $search_res = json_decode($search_res,true);
