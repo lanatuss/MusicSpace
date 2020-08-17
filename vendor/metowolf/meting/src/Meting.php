@@ -1012,6 +1012,7 @@ class Meting
     private function tencent_url($result)
     {
         $data = json_decode($result, true);
+        var_dump($data);die();
         $guid = mt_rand() % 10000000000;
 
         $type = array(
@@ -1056,7 +1057,6 @@ class Meting
             ),
         );
         $response = json_decode($this->exec($api), true);
-        var_dump($response);die();
         $vkeys = $response['req_0']['data']['midurlinfo'];
 
         foreach ($type as $index => $vo) {
