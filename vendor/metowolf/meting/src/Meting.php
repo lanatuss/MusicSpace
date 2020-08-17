@@ -1005,9 +1005,6 @@ class Meting
     private function tencent_url($result)
     {
         $data = json_decode($result, true);
-        echo '<pre>';
-        var_dump($data);
-        echo '</pre>';die();
         $guid = mt_rand() % 10000000000;
 
         $type = array(
@@ -1034,7 +1031,7 @@ class Meting
                 ),
             ),
         );
-
+        var_dump($data['data'][0]['mid']);die();
         foreach ($type as $vo) {
             $payload['req_0']['param']['songmid'][] = $data['data'][0]['mid'];
             $payload['req_0']['param']['filename'][] = $vo[2].$data['data'][0]['file']['media_mid'].'.'.$vo[3];
