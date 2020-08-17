@@ -87,7 +87,9 @@ class Meting
         if (isset($api['format'])) {
             $this->data = $this->clean($this->data, $api['format']);
         }
-
+        var_dump('aaa<br />');
+        var_dump($this->data);
+        die();
         return $this->data;
     }
 
@@ -1005,7 +1007,6 @@ class Meting
 
     private function tencent_url($result)
     {
-        var_dump($result);die();
         $data = json_decode($result, true);
         $guid = mt_rand() % 10000000000;
 
