@@ -1,0 +1,273 @@
+---------------------------------------------------------------
+[ 2020-08-15T17:45:16+08:00 ] 133.130.115.101 GET 155.94.144.107/MusicSpace/public/
+[运行时间：0.018752s] [吞吐率：53.33req/s] [内存消耗：1,941.43kb] [文件加载：35]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '155.94.144.107',
+  'proxy-connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ko;q=0.5',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T17:46:14+08:00 ] 133.130.115.101 GET 155.94.144.107/MusicSpace/public/
+[运行时间：0.018769s] [吞吐率：53.28req/s] [内存消耗：1,748.59kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '155.94.144.107',
+  'proxy-connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ko;q=0.5',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T17:51:53+08:00 ] 133.130.115.101 GET 155.94.144.107/MusicSpace/public/
+[运行时间：0.018785s] [吞吐率：53.23req/s] [内存消耗：1,748.38kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '155.94.144.107',
+  'proxy-connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T17:59:27+08:00 ] 61.129.6.227 GET 155.94.144.107/MusicSpace/public/
+[运行时间：0.019626s] [吞吐率：50.95req/s] [内存消耗：1,747.55kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+  'accept' => '*/*',
+  'referer' => 'http://155.94.144.107/MusicSpace/public',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '155.94.144.107',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T20:52:54+08:00 ] 117.136.12.26 GET 155.94.144.107/MusicSpace/public/?nsukey=n6tqhfiZ5RhlkSnsohR2sFKuWZKY4duofeXd9z6L9ECPYbAdIrTPFqlC81SB%2Fl4qFzA1bn%2FcWIbK79h80qLvojSt%2BMdPrqIPj%2Btbw8k5j4JT8WVuKMTMH%2BhQWQqnoxmJlkMo9haG3awoxcwYcoWLqg%2BdjfnnN53AgiEdaIbRGdfqFX2K0lguOIv3ljnhc%2BhXWIAUpw26VN6GPDKO24j0oQ%3D%3D
+[运行时间：0.022365s] [吞吐率：44.71req/s] [内存消耗：1,749.91kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '155.94.144.107',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; BMH-AN10 Build/HUAWEIBMH-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/71 MicroMessenger/7.0.17.1720(0x2700119E) Process/toolsmp WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'n6tqhfiZ5RhlkSnsohR2sFKuWZKY4duofeXd9z6L9ECPYbAdIrTPFqlC81SB/l4qFzA1bn/cWIbK79h80qLvojSt+MdPrqIPj+tbw8k5j4JT8WVuKMTMH+hQWQqnoxmJlkMo9haG3awoxcwYcoWLqg+djfnnN53AgiEdaIbRGdfqFX2K0lguOIv3ljnhc+hXWIAUpw26VN6GPDKO24j0oQ==',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T21:24:06+08:00 ] 112.97.182.9 GET 155.94.144.107/MusicSpace/public/?nsukey=AHadoFzraJQ677XGKJu8OKIG6yWVSJhOxAkr2D0vgau9Nq1U0oPPfoXNa3Bz5zRwq9QkpSy0G5ew5j%2BUCHVujltoJqPniLhZUDef8esST1HiYYwaI812mqNxyqdgMEbb0DNDnNzHEaWH2C4FhaI4Ak4rdipckY%2F0MmJyHPsCpn33HPb2aF6j89fpbJ3mm6oJLywOM9lly5SEIU3r3J3M8Q%3D%3D
+[运行时间：0.022543s] [吞吐率：44.36req/s] [内存消耗：1,748.95kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '155.94.144.107',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 MicroMessenger/7.0.14(0x17000e2e) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'AHadoFzraJQ677XGKJu8OKIG6yWVSJhOxAkr2D0vgau9Nq1U0oPPfoXNa3Bz5zRwq9QkpSy0G5ew5j+UCHVujltoJqPniLhZUDef8esST1HiYYwaI812mqNxyqdgMEbb0DNDnNzHEaWH2C4FhaI4Ak4rdipckY/0MmJyHPsCpn33HPb2aF6j89fpbJ3mm6oJLywOM9lly5SEIU3r3J3M8Q==',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T21:24:31+08:00 ] 112.97.182.9 GET 155.94.144.107/MusicSpace/public/
+[运行时间：0.021179s] [吞吐率：47.22req/s] [内存消耗：1,747.80kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '155.94.144.107',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D100 Safari/604.1',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T21:36:08+08:00 ] 61.129.6.151 GET 155.94.144.107/MusicSpace/public/?nsukey=AHadoFzraJQ677XGKJu8OKIG6yWVSJhOxAkr2D0vgau9Nq1U0oPPfoXNa3Bz5zRwq9QkpSy0G5ew5j%2BUCHVujltoJqPniLhZUDef8esST1HiYYwaI812mqNxyqdgMEbb0DNDnNzHEaWH2C4FhaI4Ak4rdipckY%2F0MmJyHPsCpn33HPb2aF6j89fpbJ3mm6oJLywOM9lly5SEIU3r3J3M8Q%3D%3D
+[运行时间：0.017978s] [吞吐率：55.62req/s] [内存消耗：1,747.84kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '155.94.144.107',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'AHadoFzraJQ677XGKJu8OKIG6yWVSJhOxAkr2D0vgau9Nq1U0oPPfoXNa3Bz5zRwq9QkpSy0G5ew5j+UCHVujltoJqPniLhZUDef8esST1HiYYwaI812mqNxyqdgMEbb0DNDnNzHEaWH2C4FhaI4Ak4rdipckY/0MmJyHPsCpn33HPb2aF6j89fpbJ3mm6oJLywOM9lly5SEIU3r3J3M8Q==',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-15T21:36:13+08:00 ] 101.91.60.107 GET 155.94.144.107/MusicSpace/public/
+[运行时间：0.017881s] [吞吐率：55.93req/s] [内存消耗：1,747.55kb] [文件加载：33]
+[ info ] [ LANG ] /appdb/nginx/html/MusicSpace/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.27.400 QQBrowser/9.0.2524.400',
+  'accept' => '*/*',
+  'referer' => 'http://155.94.144.107/MusicSpace/public',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '155.94.144.107',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /appdb/nginx/html/MusicSpace/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /appdb/nginx/html/MusicSpace/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
