@@ -175,7 +175,8 @@ class Meting
             case 'tencent':
             $api = array(
                 'method' => 'GET',
-                'url'    => 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp',
+//                'url'    => 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp',
+                'url'    => 'https://c.y.qq.com/soso/fcgi-bin/music_search_new_platform',
                 'body'   => array(
                     'format'   => 'json',
                     'p'        => isset($option['page']) ? $option['page'] : 1,
@@ -185,6 +186,9 @@ class Meting
                     'lossless' => 1,
                     'cr'       => 1,
                     'new_json' => 1,
+                    'catZhida' => 1,
+                    'cr'       => 1,
+                    'aggr'     => 1
                 ),
                 'format' => 'data.song.list',
             );
