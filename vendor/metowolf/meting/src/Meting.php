@@ -601,8 +601,7 @@ class Meting
                 'body'   => array(
                     'songid'  => $id,
                     'tpl' => 'yqq_song_detail',
-                    'format'   => 'jsonp',
-                    'callback' => 'getOneSongInfoCallback'
+                    'format'   => 'json',
                 ),
                 'decode' => 'tencent_url',
             );
@@ -1012,7 +1011,6 @@ class Meting
     private function tencent_url($result)
     {
         $data = json_decode($result, true);
-        var_dump($data);die();
         $guid = mt_rand() % 10000000000;
 
         $type = array(
