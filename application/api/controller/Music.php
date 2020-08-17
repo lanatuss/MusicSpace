@@ -27,6 +27,7 @@ class Music extends Controller
             return false;
         }
         $search_res = $this->_meting->format(true)->search($search);
-        var_dump($search_res);die();
+        return json(['code'=>1,'msg'=>'success','data'=>$search_res]);
     }
+
 }
