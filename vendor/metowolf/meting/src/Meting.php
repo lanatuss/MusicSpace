@@ -87,7 +87,7 @@ class Meting
         if (isset($api['format'])) {
             $this->data = $this->clean($this->data, $api['format']);
         }
-
+        var_dump($this->data);die();
         return $this->data;
     }
 
