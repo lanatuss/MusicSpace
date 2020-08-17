@@ -1031,7 +1031,7 @@ class Meting
                 ),
             ),
         );
-        var_dump($data['data'][0]['mid']);die();
+
         foreach ($type as $vo) {
             $payload['req_0']['param']['songmid'][] = $data['data'][0]['mid'];
             $payload['req_0']['param']['filename'][] = $vo[2].$data['data'][0]['file']['media_mid'].'.'.$vo[3];
