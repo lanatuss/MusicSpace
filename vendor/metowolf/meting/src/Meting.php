@@ -605,6 +605,7 @@ class Meting
                 ),
                 'decode' => 'tencent_url',
             );
+            var_dump($id);die();
             break;
             case 'xiami':
             $api = array(
@@ -1012,7 +1013,7 @@ class Meting
     {
         $data = json_decode($result, true);
         $guid = mt_rand() % 10000000000;
-        var_dump($data);die();
+
         $type = array(
             array('size_320mp3', 320, 'M800', 'mp3'),
             array('size_192aac', 192, 'C600', 'm4a'),
