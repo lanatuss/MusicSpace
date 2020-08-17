@@ -1005,7 +1005,9 @@ class Meting
     private function tencent_url($result)
     {
         $data = json_decode($result, true);
-        var_dump($data);die();
+        echo '<pre>';
+        var_dump($data);
+        echo '</pre>';die();
         $guid = mt_rand() % 10000000000;
 
         $type = array(
