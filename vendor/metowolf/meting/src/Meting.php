@@ -175,8 +175,7 @@ class Meting
             case 'tencent':
             $api = array(
                 'method' => 'GET',
-//                'url'    => 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp',
-                'url'    => 'https://c.y.qq.com/soso/fcgi-bin/music_search_new_platform',
+                'url'    => 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp',
                 'body'   => array(
                     'format'   => 'json',
                     'p'        => isset($option['page']) ? $option['page'] : 1,
@@ -186,9 +185,6 @@ class Meting
                     'lossless' => 1,
                     'cr'       => 1,
                     'new_json' => 1,
-                    'catZhida' => 1,
-                    'cr'       => 1,
-                    'aggr'     => 1
                 ),
                 'format' => 'data.song.list',
             );
@@ -272,7 +268,8 @@ class Meting
                 'method' => 'GET',
                 'url'    => 'https://c.y.qq.com/v8/fcg-bin/fcg_play_single_song.fcg',
                 'body'   => array(
-                    'songmid'  => $id,
+//                    'songmid'  => $id,
+                    'songid'  => $id,
                     'platform' => 'yqq',
                     'format'   => 'json',
                 ),
@@ -604,7 +601,8 @@ class Meting
                 'body'   => array(
                     'songid'  => $id,
                     'tpl' => 'yqq_song_detail',
-                    'format'   => 'json'
+                    'format'   => 'jsonp',
+                    'callback' => 'getOneSongInfoCallback'
                 ),
                 'decode' => 'tencent_url',
             );
@@ -1302,7 +1300,6 @@ class Meting
         if (isset($data['musicData'])) {
             $data = $data['musicData'];
         }
-        var_dump($data);die();
         $result = array(
             'id'       => $data['mid'],
             'name'     => $data['name'],
