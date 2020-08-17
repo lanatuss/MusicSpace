@@ -1055,6 +1055,7 @@ class Meting
                 'data'        => json_encode($payload),
             ),
         );
+        var_dump($response);die();
         $response = json_decode($this->exec($api), true);
         $vkeys = $response['req_0']['data']['midurlinfo'];
 
