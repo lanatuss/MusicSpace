@@ -20,7 +20,7 @@ class Music extends Controller
         $this->_meting = new Meting(self::$source_netease);
         $this->_meting->cookie($this->_cookie);
     }
-    //
+
     public function search(){
         $search = Request::instance()->get('search','');
         $platform = Request::instance()->get('platform','netease');
