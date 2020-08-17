@@ -74,7 +74,7 @@ class Meting
         }
 
         $this->curl($api['url'], $api['body']);
-
+        var_dump('ass');die();
         if (!$this->format) {
             return $this->raw;
         }

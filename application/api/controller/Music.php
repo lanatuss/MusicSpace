@@ -33,7 +33,6 @@ class Music extends Controller
             switch (self::$$platform_str){
                 case 'tencent':
                     $this->_meting->cookie('pgv_pvi=6086360064; pgv_si=s887317504; pgv_pvid=2050129028; yplayer_open=0; ts_last=y.qq.com/portal/player.html; ts_uid=8405946048; yq_index=0; qqmusic_fromtag=66; player_exist=1');
-                    var_dump('abc');die();
                     break;
             }
         }
