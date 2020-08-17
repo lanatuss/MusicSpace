@@ -1049,26 +1049,19 @@ class Meting
             ),
         );
         $response = json_decode($this->exec($api), true);
+        var_dump($response);die();
         $vkeys = $response['req_0']['data']['midurlinfo'];
 
         foreach ($type as $index => $vo) {
-//            if ($data['data'][0]['file'][$vo[0]] && $vo[1] <= $this->temp['br']) {
-//                if (!empty($vkeys[$index]['vkey'])) {
-//                    $url = array(
-//                        'url'  => $response['req_0']['data']['sip'][0].$vkeys[$index]['purl'],
-//                        'size' => $data['data'][0]['file'][$vo[0]],
-//                        'br'   => $vo[1],
-//                    );
-//                    break;
-//                }
-//            }
-            if (!empty($vkeys[$index]['vkey'])) {
-                $url = array(
-                    'url'  => $response['req_0']['data']['sip'][0].$vkeys[$index]['purl'],
-                    'size' => $data['data'][0]['file'][$vo[0]],
-                    'br'   => $vo[1],
-                );
-                break;
+            if ($data['data'][0]['file'][$vo[0]] && $vo[1] <= $this->temp['br']) {
+                if (!empty($vkeys[$index]['vkey'])) {
+                    $url = array(
+                        'url'  => $response['req_0']['data']['sip'][0].$vkeys[$index]['purl'],
+                        'size' => $data['data'][0]['file'][$vo[0]],
+                        'br'   => $vo[1],
+                    );
+                    break;
+                }
             }
         }
         if (!isset($url['url'])) {
