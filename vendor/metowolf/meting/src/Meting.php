@@ -1064,7 +1064,7 @@ class Meting
 //            }
 //        }
         $url = array(
-            'url'  => $response['req_0']['data']['sip'][0].$vkeys[0]['filename'],
+            'url'  => $response['req_0']['data']['sip'][0].$vkeys[1]['filename'],
             'size' => '',
             'br'   => 1,
         );
