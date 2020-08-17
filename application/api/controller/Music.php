@@ -24,7 +24,7 @@ class Music extends Controller
     public function search(){
         $search = Request::instance()->get('search','');
         if(empty($search)){
-            return false;
+            return json(['code'=> -1,'msg'=>'请输入搜索关键字']);
         }
         $search_res = $this->_meting->format(true)->search($search);
         $search_res = json_decode($search_res,true);
