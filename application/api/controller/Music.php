@@ -28,8 +28,8 @@ class Music extends Controller
             return json(['code'=> -1,'msg'=>'请输入搜索关键字']);
         }
         $platform_str = 'source_'.strtolower($platform);
-        var_dump($$platform_str);die();
-        if(isset($$platform_str) && $platform!='netease'){
+        var_dump(self::$$platform_str);die();
+        if(isset(self::$$platform_str) && $platform!='netease'){
             $this->_meting = new Meting(self::$$platform_str);
         }
         $search_res = $this->_meting->format(true)->search($search);
