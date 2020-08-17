@@ -15,7 +15,7 @@ class Music extends Controller
     const SOURCE_XIAOMI = 'xiami';
     const SOURCE_TENCENT = 'tencent';
     const SOURCE_NETEASE = 'netease';
-    public function initialize()
+    public function _initialize()
     {
         $this->_meting = new Meting(self::SOURCE_NETEASE);
         $this->_meting->cookie($this->_cookie);
