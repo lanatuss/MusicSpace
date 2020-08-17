@@ -34,7 +34,6 @@ class Music extends Controller
         $search_res = $this->_meting->format(true)->search($search);
         $search_res = json_decode($search_res,true);
         if(count($search_res)>0){
-            var_dump($search_res);die();
             $music_id = $search_res[0]['id'];
             $find_res = $this->_meting->format(true)->url($music_id);
             return json(['code'=>1,'msg'=>'success','data'=>json_decode($find_res)]);
