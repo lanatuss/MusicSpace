@@ -1302,6 +1302,7 @@ class Meting
         if (isset($data['musicData'])) {
             $data = $data['musicData'];
         }
+        var_dump($data);die();
         $result = array(
             'id'       => $data['mid'],
             'name'     => $data['name'],
