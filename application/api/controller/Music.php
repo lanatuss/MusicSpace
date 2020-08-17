@@ -22,7 +22,7 @@ class Music extends Controller
     }
 
     public function search(){
-        $search = Request::instance()->post('search','');
+        $search = Request::instance()->get('search','');
         if(empty($search)){
             return false;
         }
