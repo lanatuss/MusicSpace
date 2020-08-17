@@ -87,7 +87,7 @@ class Meting
         if (isset($api['format'])) {
             $this->data = $this->clean($this->data, $api['format']);
         }
-        var_dump($this->data);die();
+
         return $this->data;
     }
 
@@ -593,14 +593,9 @@ class Meting
             $api = array(
                 'method' => 'GET',
                 'url'    => 'https://c.y.qq.com/v8/fcg-bin/fcg_play_single_song.fcg',
-//                'body'   => array(
-//                    'songmid'  => $id,
-//                    'platform' => 'yqq',
-//                    'format'   => 'json',
-//                ),
                 'body'   => array(
-                    'songid'  => $id,
-                    'tpl' => 'yqq_song_detail',
+                    'songmid'  => $id,
+                    'platform' => 'yqq',
                     'format'   => 'json',
                 ),
                 'decode' => 'tencent_url',
