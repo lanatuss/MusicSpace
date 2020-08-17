@@ -605,7 +605,6 @@ class Meting
                 ),
                 'decode' => 'tencent_url',
             );
-            var_dump($id);die();
             break;
             case 'xiami':
             $api = array(

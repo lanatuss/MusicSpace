@@ -38,6 +38,7 @@ class Music extends Controller
         }
         //
         $search_res = $this->_meting->format(true)->search($search);
+        var_dump($search_res);die();
         $search_res = json_decode($search_res,true);
         if(count($search_res)>0){
             $music_id = $search_res[0]['id'];
