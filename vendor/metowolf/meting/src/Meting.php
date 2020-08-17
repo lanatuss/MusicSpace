@@ -74,13 +74,13 @@ class Meting
         }
 
         $this->curl($api['url'], $api['body']);
-        var_dump($this->raw);die();
+
         if (!$this->format) {
             return $this->raw;
         }
 
         $this->data = $this->raw;
-
+        var_dump($this->data);die();
         if (isset($api['decode'])) {
             $this->data = call_user_func_array(array($this, $api['decode']), array($this->data));
         }
