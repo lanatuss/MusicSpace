@@ -268,8 +268,7 @@ class Meting
                 'method' => 'GET',
                 'url'    => 'https://c.y.qq.com/v8/fcg-bin/fcg_play_single_song.fcg',
                 'body'   => array(
-//                    'songmid'  => $id,
-                    'songid'  => $id,
+                    'songmid'  => $id,
                     'platform' => 'yqq',
                     'format'   => 'json',
                 ),
